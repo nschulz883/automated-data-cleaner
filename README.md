@@ -1,12 +1,12 @@
-# 🧹 Automated Data Cleaning Tool
+#  Automated Data Cleaning Tool
 
-## 🚀 Overview
+##  Overview
 
 This project is a Python-based automated data cleaning pipeline that processes raw CSV files and prepares them for analysis or machine learning tasks.
 
 It handles missing values, feature engineering, encoding, scaling, and generates reports and visualisations.
 
-## 🎯 Objective
+##  Objective
 
 To automate the preprocessing of datasets by:
 
@@ -16,7 +16,7 @@ To automate the preprocessing of datasets by:
 * Scaling numerical features
 * Generating reports and visual insights
 
-## ⚙️ Features
+##  Features
 
 * Removes duplicate rows
 * Fills missing values:
@@ -35,7 +35,7 @@ To automate the preprocessing of datasets by:
   * Summary report
   * Distribution plots
 
-## 🧪 Example Workflow
+##  Example Workflow
 
 1. Input a CSV file
 2. Script processes the data
@@ -45,7 +45,7 @@ To automate the preprocessing of datasets by:
    * report.txt
    * distribution plots
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 automated-data-cleaning-tool/
@@ -56,7 +56,7 @@ automated-data-cleaning-tool/
 │── outputs/
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -65,13 +65,13 @@ python src/main.py
 
 Then enter your CSV file path when prompted.
 
-## 📊 Output Files
+##  Output Files
 
 * `cleaned_data.csv` → processed dataset
 * `report.txt` → summary of dataset
 * `*.png` → distribution plots
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas
@@ -80,13 +80,11 @@ Then enter your CSV file path when prompted.
 * Seaborn
 * Scikit-learn
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add outlier detection
 * Add data quality scoring
 * Build a web interface
 * Support large datasets
 
-## 👤 Author
 
-Noah Schulz
